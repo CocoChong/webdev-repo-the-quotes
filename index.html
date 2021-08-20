@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import Social Icon-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--CSS-->
+      <link rel="stylesheet" href="index.css">
+
+      <title>The Quotes</title>
+    </head>
+
+    <body>
+        <div class="aboveh1">INSPIRATION|MOTIVATION|EXPRESSION</div>
+        <div class="h1">The Quotes</div>
+
+        <nav id="navbar"> <!--Navigation Bar-->
+            <div class="left"> <!--Tabs-->
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="quoteoftheday.html">Quote of The Day</a></li>
+                    <li><a href="bookofthemonth.html">Book of The Month</a></li>
+                </ul>
+            </div>
+            <div class="brand-logo center"> <!--Search Bar-->
+                <ul>
+                    <li>
+                        <form>
+                            <div class="input-field">
+                                <!--<label class="label-icon" for="search"><i class="material-icons">search</i></label>-->
+                                <i class="material-icons prefix">search</i>
+                                <input id="search" type="search" placeholder="Search" required>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="right"> <!--Social Icons-->
+                <ul>
+                    <li><a class="fa fa-facebook" href="#!"></a></li>
+                    <li><a class="fa fa-youtube" href="#"></a></li>
+                    <li><a class="fa fa-instagram" href="#!"></a></li>
+                </ul>
+            </div>
+            <script> //Stick on top
+                window.onscroll = function() {myFunction()};
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
+                }
+            </script>
+        </nav>
+
+        <div class="row" id="content"> <!--Cards-->
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="/Images/pexels-isaac-taylor-1557251.jpg">
+                    </div>
+                    <div class="card-content">
+                    <span class="card-title activator truncate"><i class="material-icons right">more_vert</i>Inspirational Quotes</span>
+                    <p>10 cute short inspirational quotes about life.
+                        <br><br>
+                        Photo by <a href="https://www.pexels.com/@yungsaac?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Issac Taylor</a>
+                        from <a href="https://www.pexels.com/">Pexels</a>
+                    </p>
+                    </div>
+                    <div class="card-reveal">
+                    <span class="card-title">Inspirational Quotes<i class="material-icons right">close</i></span>
+                    <ol>
+                        <li>Life is black and white, it’s up to you to paint the colors.</li>
+                        <li>Hurt someone with the truth, but never make them happy with a lie.</li>
+                        <li>If there is no struggle, there is no progress.</li>
+                        <li>Beautiful things don’t ask for attention.</li>
+                        <li>To conquer your flaws, you must accept them first.</li>
+                        <li>Always laugh when you can. It is a cheap medicine.</li>
+                        <li>If the wind will not serve, take to the oars.</li>
+                        <li>Work hard in silence, let your success be your noise.</li>
+                        <li>Life is about trying things to see if they work.</li>
+                        <li>You make mistakes. Mistakes don’t’ make you.</li>
+                    </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="/Images/The art of war.jpg">
+                    </div>
+                    <div class="card-content">
+                    <span class="card-title activator truncate"><i class="material-icons right">more_vert</i>The Art Of War Quotes</span>
+                    <p>The Art Of War has been considered the definitive text on military 
+                        strategy and warfare ever since ancient China, 
+                        inspiring businesses, athletes, and of course generals to 
+                        compete in the right way until today.
+                        <br><br>
+                    </p>
+                    </div>
+                    <div class="card-reveal">
+                    <span class="card-title">The Art Of War Quotes<i class="material-icons right">close</i></span>
+                    <ol>
+                        <li>Appear weak when you are strong, and strong when you are weak.</li>
+                        <li>Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.</li>
+                        <li>In the midst of chaos, there is also opportunity.</li>
+                        <li>When you surround an army, leave an outlet free. Do not press a desperate foe too hard.</li>
+                        <li>The wise warrior avoids the battle.</li>
+                        <li>If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete.</li>
+                        <li>The supreme art of war is to subdue the enemy without fighting.</li>
+                        <li>The greatest victory is that which requires no battle.</li>
+                    </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="/Images/pexels-skitterphoto-442420.jpg">
+                    </div>
+                    <div class="card-content">
+                    <span class="card-title activator truncate"><i class="material-icons right">more_vert</i>The Greatest Quotes of All Time</span>
+                    <p>A collection of the most powerful inspirational quotes throughout history.
+                        <br><br>
+                        Photo by <a href="https://www.pexels.com/@skitterphoto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Skitterphoto</a>
+                        from <a href="https://www.pexels.com/">Pexels</a>
+                    </p>
+                    </div>
+                    <div class="card-reveal">
+                    <span class="card-title">The Greatest Quotes of All Time<i class="material-icons right">close</i></span>
+                    <ol>
+                        <li>You cannot shake hands with a clenched fist. (Indira Gandhi)</li>
+                        <li>Judge everyone and everything for yourself. (Henry James)</li>
+                        <li>Learning never exhausts the mind. (Leonardo da Vinci)</li>
+                        <li>No act of kindness, no matter how small, is ever wasted. (Aesop)</li>
+                        <li>It’s far netter to be alone, than to be in bad company. (George Washington)</li>
+                        <li>Keep your face always towards the sunshine and shadows will fall behind you. (Walt Whitman)</li>
+                        <li>Don’t judge each day by the harvest you reap but the seeds that you plant. (Robert Louis Stevenson)</li>
+                        <li>The only thing necessary for the triumph of evil is for good men to do nothing. (Edmund Burke)</li>
+                    </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="/Images/pexels-vlad-chețan-1529360.jpg">
+                    </div>
+                    <div class="card-content">
+                    <span class="card-title activator truncate"><i class="material-icons right">more_vert</i>Quotes For Lonely Night & Rainy Day</span>
+                    <p>
+                        <br><br>
+                        Photo by <a href="https://www.pexels.com/@chetanvlad?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Vlad Chețan</a>
+                        from <a href="https://www.pexels.com/">Pexels</a>
+                    </p>
+                    </div>
+                    <div class="card-reveal">
+                    <span class="card-title">Quotes For Lonely Night & Rainy Day<i class="material-icons right">close</i></span>
+                    <ol>
+                        <li>The love we never shared made me stay with someone who never arrived.</li>
+                        <li>Humans don’t fix the broken, they search for something new that can be broken.</li>
+                        <li>Maybe you’re feeling heavy because you’re carrying so much of others and so less of you.</li>
+                        <li>Move on, even if you are not sure of your destination.</li>
+                        <li>Asking someone to stay is the reason for you to leave.</li>
+                        <li>Some will leave you with pain and lessons, and some with love and memories.</li>
+                        <li>To love is to get lost, and eventually finding the best of you.</li>
+                        <li>Hope you heal from all the things no one apologized for.</li>
+                    </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div> <!--Back To Top Button-->
+            <a href="#top" class="right btn-floating btn-large waves-effect waves-light">
+            <i class="material-icons">arrow_upward</i></a>
+            <br><br><br>
+        </div>
+        
+        <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 l6">
+                  <h5 class="white-text">Subscribe to get latest quotes</h5>
+                  <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">mail</i>
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Enter email here</label>
+                    </div>
+                    <div class="col s6">
+                        <button class="btn waves-effect waves-light transparent" type="submit" name="action">Subscribe
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Explore More</h5>
+                    <ul>
+                        <li><a class="white-text" href="#top">Home</a></li>
+                        <li><a class="white-text" href="quoteoftheday.html">Quote of The Day</a></li>
+                        <li><a class="white-text" href="bookofthemonth.html">Book of The Month</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <br>
+        </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="materialize.min.js"></script>
+    </body>
+  </html>
